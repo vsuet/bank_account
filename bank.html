@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="bankstyle.css">
+    <script src="bank.js" charset="utf-8"></script>
+    <title>Банковский счет</title>
+</head>
+    <body>
+<h1 class="first">Банковский счет</h1>
+
+<form>
+<section id="forma">
+    <h3>Форма входа в систему</h3>
+        <div>
+            <p>Введите ФИО:</p>
+            <input type="text" size="40" placeholder="Иванов Иван Иванович" id="username">
+             
+        </div>
+        <div>
+            <p>Введите дату рождения:</p>
+            <input type="date" size="40" value="2022-01-01" id="date">
+        </div>
+        
+        <div>
+            <p></p>
+            <input type="checkbox"><span>Запомнить данные</span>
+        </div>
+        <div class="button">
+            <button><a href="bank2.html">Войти в систему </a></button>
+        </div>
+    </section>
+    </form>
+    <main class="inner-main">
+    <p id="out">Вывод ФИО пользователя: </p><div id="txt2"></div><br>
+   <button onclick="out()">Вывести</button>
+</main>
+<main class="inner-main">
+    <p id="out-1">Вывод даты рождения пользователя: </p><div id="txt3"></div><br>
+   <button onclick="butt()">Вывести</button>
+</main>
+    </body>
+

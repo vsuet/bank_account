@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="bankstyle.css">
+    <script src="bank.js" charset="utf-8"></script>
+    <title>Банковский счет</title>
+</head>
+    <body>
+<h1 class="first">Личный кабинет</h1>
+<div class="container">
+    <div class="storyoperation"><p class="story">История операций</p><hr>
+        <table >
+            <tr>
+                <td class="class-1"><img class="photo" src="img/magnit.png"></td>
+                <td class="class-2"><p class="table-2">ООО Магнит</p>
+                <p class="small">Оплата товаров и услуг</p></td>
+                <td class="class-2">541,51 Р</td>
+            </tr>
+            <tr>
+                <td class="class-1"><img class="photo" src="img/apteka.jpg"></td>
+                <td class="class-2"><p class="table-2">ООО Капельки Здоровья </p>
+                <p class="small">Оплата товаров и услуг</p></td>
+                <td class="class-2">2589,36 Р</td>
+            </tr>
+            <tr>
+                <td class="class-1"><img class="photo" src="img/bank.png"></td>
+                <td class="class-2"><p class="table-2">Банкомат Банка</p>
+                <p class="small">Внесение наличных</p></td>
+                <td class="class-2 money-green">+3000,00 Р</td>
+            </tr>
+            
+        </table>
+        <button>Просмотреть еще</button>
+    </div>
+    <div class="user">
+        <table>
+            <tr>
+            <td colspan="2">Данные пользователя:<img class="photo" src="img/profile.png"></td>
+            <td> <input type="text" placeholder="Фамилия"></td>
+            <td><input type="text" placeholder="Имя"></td>
+            <td><input type="text" placeholder="Отчетсво"></td>
+            <td><p>Дата рождения: <input type="date" value="2022-01-01"></p></td>
+            </tr>
+            
+            </table></div>
+    <div class="operation">
+        <h4>Счет пользователя</h4>
+        <div> <table><tr>
+            <td class="class-1"><img class="photo-1" src="img/bankcard.png"></td>
+            <td class="class-2"><p id="bill">0</p>
+            <p class="small">Счет пользователя в рублях</p></td>
+          </tr> 
+          <tr>
+            <td class="class-1"><img class="photo-1" src="img/bankcard2.png"></td>
+            <td class="class-2"><p id="bill1">0</p>
+            <p class="small">Счет пользователя в $</p></td>
+          </tr></table>
+        </div>
+        <div><p>Положить деньги на счет в рублях</p><input id="inputObject"/>
+        <button onclick="add()">Добавить</button>
+        <button onclick="take()">Снять</button><br>
+       </div>
+        <div><p>Положить деньги на счет в $</p><input id="inputObject1"/>
+    <button onclick="add1()">Добавить</button>
+    <button onclick="take1()">Снять</button>
+        </div>
+    </div>
+
+  </div>
+    </body>
+

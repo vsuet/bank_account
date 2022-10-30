@@ -1,0 +1,177 @@
+body{
+    background-image: url(img/fon1.jpg);
+}
+.first{
+    text-align: center;
+    color:rgb(31, 31, 33);
+}
+.button{
+    margin: 10px 10px;
+}
+#forma{
+    background: rgb(255, 255, 255);
+    margin: 0 auto;
+    padding: 25px 0px 0px;
+    text-align: center;
+    height: 330px;
+    width: 500px;
+    border: 2px solid black;
+}
+#forma h3{
+    color:rgb(31, 31, 33);
+    font: bold 22px Arial;
+}
+.inner-main{
+    background: rgb(255, 255, 255);
+    margin: 20px auto;
+    padding: 20px 0px 0px;
+    text-align: center;
+    height: 130px;
+    width: 400px;
+    border: 2px solid black;
+}
+#out{
+    text-align: center;
+    color:rgb(31, 31, 33);
+    font: bold 18px Arial;
+}
+#out-1{
+    text-align: center;
+    color:rgb(31, 31, 33);
+    font: bold 18px Arial;
+}
+.container {  display: grid;
+    grid-template-columns: 1.3fr 0.7fr 1fr;
+    grid-template-rows: 1fr 1.7fr 0.3fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "user user ."
+      "storyoperation . operation"
+      "storyoperation . operation";
+  }
+  
+  .storyoperation { 
+    grid-area: storyoperation; 
+    background: rgb(255, 255, 255);
+    margin: 0 auto;
+    padding: 0px 0px 0px;
+    text-align:center;
+    height: 470px;
+    width: 500px;
+    border: 2px solid black;
+}
+  
+  .user { grid-area: user; 
+    padding:10px 50px;}
+  
+  .operation { grid-area: operation; 
+    background: rgb(255, 255, 255);
+    margin: 0 auto;
+    padding: 0px 0px 0px;
+    text-align:center;
+    height: 500px;
+    width: 450px;
+    border: 2px solid black;
+}
+  .p-1{
+    font-family: 'Times New Roman'; 
+    font-size: 20px;
+    font-weight: bold;
+    color:black;
+    text-align: left;
+}
+
+
+
+
+
+
+table{
+    border-spacing: 0 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+th{
+    padding:10px 20px;
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border-right: 2px solid rgb(0, 0, 0);
+    font-size: 0.9em;
+}
+th:first-child{
+    text-align: left;
+}
+th:last-child{
+    border-right: none;
+}
+td{
+    vertical-align: middle;
+    padding: 10px;
+    font-size: 14px;
+    text-align: center;
+    border-top: 2px solid rgb(0, 0, 0);
+    border-bottom: 2px solid rgb(0, 0, 0);
+    border-right:  2px solid  rgb(0, 0, 0);
+}
+td:first-child{
+    border-left: 2px solid  rgb(0, 0, 0);
+    border-right:none;
+}
+td:nth-child(2){
+    text-align: left;
+}
+
+
+
+
+
+.story{
+    border-spacing: 0 5px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.table-2{
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 18px;
+    
+}
+.small{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 18px;
+    color:grey
+}
+.class-1:first-child{
+    border-left: 0px solid  rgb(0, 0, 0);
+    border-right:none;
+    border-top: 0px solid rgb(0, 0, 0);
+    border-bottom: 0px solid rgb(0, 0, 0);
+}
+.class-2{
+    border-top: 0px solid rgb(0, 0, 0);
+    border-bottom: 0px solid rgb(0, 0, 0);
+    border-right:  0px solid  rgb(0, 0, 0);
+    
+}
+
+.photo{
+    width: 70px;
+    border-radius: 50px;
+}
+.money-green{
+    color:green;
+}
+.photo-1{
+    width: 150px;
+    position: static;
+    left:20px;
+}
+
+#bill{
+    font-weight: bold;
+    font-size: 20px;
+}
+#bill1{
+    font-weight: bold;
+    font-size: 20px;
+}
